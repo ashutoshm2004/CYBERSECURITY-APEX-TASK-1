@@ -8,7 +8,6 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 * *Target:* Metasploitable2
 * *Proof:* Both VMs are configured on the same Host-Only network adapter.
 
-*[INSERT SCREENSHOT SHOWING KALI/METASPLOITABLE2 VMS LISTED WITH HOST-ONLY ADAPTER SETTINGS]*
 
 ## 2. Tool Verification: Nmap (Network Scanning)
 
@@ -18,7 +17,6 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 *Result:* Nmap successfully identified numerous open ports, confirming Metasploitable2 is functioning as a vulnerable target.
 
-*[INSERT SCREENSHOT OF YOUR SUCCESSFUL NMAP SCAN HERE]*
 
 ## 3. Tool Verification: Wireshark (Packet Capture)
 
@@ -28,7 +26,6 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 *Proof:* Wireshark successfully isolated the Echo Request and Echo Reply packets.
 
-*[INSERT SCREENSHOT OF YOUR SUCCESSFUL WIRESHARK ICMP CAPTURE HERE]*
 
 ## 4. Tool Verification: Burp Suite (Web Proxy)
 
@@ -38,4 +35,3 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 *Proof:* Burp Suite successfully intercepted the initial GET request destined for the target IP.
 
-*[INSERT SCREENSHOT OF YOUR SUCCESSFUL BURP SUITE INTERCEPT HERE]*
