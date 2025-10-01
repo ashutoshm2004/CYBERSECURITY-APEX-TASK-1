@@ -29,6 +29,6 @@ All screenshots used in the Lab_Setup_Report for visual reference:
 - `Wireshark Ping Execution.jpg`
 
 ### 🎥 `VIDEO/`
-- `walkthrough_link.txt` — link to a ~5-minute walkthrough video (or keep the URL in the root report).
+- https://www.linkedin.com/posts/ashutosh-mishra-884115388_task-1-fundamentals-of-cybersecurity-activity-7379111877672529920-uJQw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF9pw6QBVqPr9onPFbPFMq67n_fSfM0rFPM
 
 **Author:** Ashutosh Mishra
