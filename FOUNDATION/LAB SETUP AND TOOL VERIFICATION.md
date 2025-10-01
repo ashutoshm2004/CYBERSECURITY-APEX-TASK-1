@@ -8,9 +8,9 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 * *Target:* Metasploitable2
 * *Proof:* Both VMs are configured on the same Host-Only network adapter.
 
-https://github.com/ashutoshm2004/CYBERSECURITY-APEX-TASK-1/blob/main/SCREENSHOTS/Oracle%20VirtualBox%20Setup.png
-https://github.com/ashutoshm2004/CYBERSECURITY-APEX-TASK-1/blob/main/SCREENSHOTS/Kali%20Linux%20Setup.jpg
-https://github.com/ashutoshm2004/CYBERSECURITY-APEX-TASK-1/blob/main/SCREENSHOTS/Metasploitable%202%20Setup.png
+![VirtualBox Setup](../SCREENSHOTS/Oracle VirtualBox Setup.png)  
+![Kali Linux Setup](../SCREENSHOTS/Kali Linux Setup.jpg)  
+![Metasploitable2 Setup](../SCREENSHOTS/Metasploitable 2 Setup.png)
 
 ## 2. Tool Verification: Nmap (Network Scanning)
 
@@ -20,7 +20,7 @@ https://github.com/ashutoshm2004/CYBERSECURITY-APEX-TASK-1/blob/main/SCREENSHOTS
 
 *Result:* Nmap successfully identified numerous open ports, confirming Metasploitable2 is functioning as a vulnerable target.
 
-https://github.com/ashutoshm2004/CYBERSECURITY-APEX-TASK-1/blob/main/SCREENSHOTS/Kali%20Linux%20nmap%20Result.jpg
+![Kali Nmap Result](../SCREENSHOTS/Kali Linux nmap Result.jpg)
 
 ## 3. Tool Verification: Wireshark (Packet Capture)
 
@@ -30,7 +30,7 @@ https://github.com/ashutoshm2004/CYBERSECURITY-APEX-TASK-1/blob/main/SCREENSHOTS
 
 *Proof:* Wireshark successfully isolated the Echo Request and Echo Reply packets.
 
-https://github.com/ashutoshm2004/CYBERSECURITY-APEX-TASK-1/blob/main/SCREENSHOTS/Wireshark%20Ping%20Execution.jpg
+![Wireshark Ping](../SCREENSHOTS/Wireshark Ping Execution.jpg)
 
 ## 4. Tool Verification: Burp Suite (Web Proxy)
 
@@ -40,4 +40,4 @@ https://github.com/ashutoshm2004/CYBERSECURITY-APEX-TASK-1/blob/main/SCREENSHOTS
 
 *Proof:* Burp Suite successfully intercepted the initial GET request destined for the target IP.
 
-https://github.com/ashutoshm2004/CYBERSECURITY-APEX-TASK-1/blob/main/SCREENSHOTS/Burpsuite%20Exceution.png
+![Burpsuite Execution](../SCREENSHOTS/Burpsuite Execution.png)
